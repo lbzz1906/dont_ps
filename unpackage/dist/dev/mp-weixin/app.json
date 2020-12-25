@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/show/show"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "demo",
+    "navigationBarBackgroundColor": "#9085ff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}
