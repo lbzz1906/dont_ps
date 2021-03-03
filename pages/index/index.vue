@@ -27,9 +27,7 @@
 		</view>
 		<view style="width: 800rpx;"></view>
 		<view class="tec">
-			<text style="color: #007AFF;font-size: 15px;">LBZZ出品</text>
-			<text>\n用了两天时间,开发不易\n如果觉得还行的话就请我喝瓶可乐呗\n点击下方按钮保存我的支付宝收款码</text>
-			<button type="default" size="mini" @click="getdown">下载</button>
+			<text>马上要离开学校了\n决定将软件开源给学弟学妹们\n这将是最后一次维护\nhttps://github.com/lbzz1906/dont_ps.git\n\n</text>
 			<text style="color: red;font-size: 20px;">声明:\n该软件仅用于学术交流,\n请于24小时之内删除\n\n\n\n</text>
 		</view>
 		</uni-card>
@@ -65,30 +63,6 @@
 			},
 			dataClick() {
 				this.stua = !this.stua
-			},
-			getdown() {
-				uni.downloadFile({
-					url: 'https://s3.ax1x.com/2020/12/07/Dv9k38.jpg', //图片地址  
-					success: (res) => {
-						if (res.statusCode === 200) {
-							uni.saveImageToPhotosAlbum({
-								filePath: res.tempFilePath,
-								success: function() {
-									uni.showToast({
-										title: "保存成功",
-										icon: "none"
-									});
-								},
-								fail: function() {
-									uni.showToast({
-										title: "保存失败",
-										icon: "none"
-									});
-								}
-							});
-						}
-					}
-				})
 			}
 		}
 	}

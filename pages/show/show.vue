@@ -60,7 +60,10 @@
 					date.getMonth() + 1 < 10 ?
 					"0" + (date.getMonth() + 1) :
 					date.getMonth() + 1;
-				var day = date.getDate();
+				var day = date.getDate()  < 10 ?
+					"0" + (date.getDate() ) :
+					date.getDate();
+				
 				// 拼接
 				return (
 					year +
@@ -81,8 +84,8 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		color: #ff6666;
-		font-size: 50px;
+		color: #e35b5b;
+		font-size: 60px;
 		margin-top: 38px;
 
 	}

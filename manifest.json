@@ -56,9 +56,9 @@
             "splashscreen" : {
                 "androidStyle" : "default",
                 "android" : {
-                    "hdpi" : "C:/Users/lbzz/Desktop/start.png",
-                    "xhdpi" : "C:/Users/lbzz/Desktop/start.png",
-                    "xxhdpi" : "C:/Users/lbzz/Desktop/start.png"
+                    "hdpi" : "C:/Users/lbzz/Desktop/log.png",
+                    "xhdpi" : "C:/Users/lbzz/Desktop/log.png",
+                    "xxhdpi" : "C:/Users/lbzz/Desktop/log.png"
                 }
             },
             "icons" : {
